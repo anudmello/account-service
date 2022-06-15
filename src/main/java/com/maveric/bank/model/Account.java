@@ -14,4 +14,8 @@ public class Account {
     int customerId;
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    public Account(String type, int customerId) {
+        this.type = type;
+        this.customerId = customerId;
+    }
 }
