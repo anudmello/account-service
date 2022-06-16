@@ -38,8 +38,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-            <version>8.0.29</version>
-            <scope>runtime</scope>
+            <scope>import</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -52,6 +51,97 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<version>2.7.0</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+        <dependency>
+            <groupId>io.openliberty.features</groupId>
+            <artifactId>beanValidation-2.0</artifactId>
+            <version>22.0.0.6</version>
+            <scope>compile</scope>
+        </dependency>
+		<dependency>
+			<groupId>io.openliberty.features</groupId>
+			<artifactId>beanValidation-3.0</artifactId>
+			<version>22.0.0.6</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+			<version>2.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.openliberty.features</groupId>
+			<artifactId>com.ibm.websphere.appserver.configValidationConfigSchema-2.0</artifactId>
+			<version>22.0.0.6</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.openliberty.features</groupId>
+			<artifactId>com.ibm.websphere.appserver.configValidationJCA-1.0</artifactId>
+			<version>22.0.0.6</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.openliberty.features</groupId>
+			<artifactId>com.ibm.websphere.appserver.configValidationJDBC-1.0</artifactId>
+			<version>22.0.0.6</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.openliberty.features</groupId>
+			<artifactId>io.openliberty.configValidationValidatorSchema-3.0</artifactId>
+			<version>22.0.0.6</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.openliberty.features</groupId>
+			<artifactId>com.ibm.websphere.appserver.jaxrsBeanValidation-2.0</artifactId>
+			<version>22.0.0.6</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>Validation-test-WF8</artifactId>
+			<version>3.0.19.Final</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.openliberty.features</groupId>
+			<artifactId>io.openliberty.faces3.0-beanValidation3.0</artifactId>
+			<version>22.0.0.6</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.openliberty.features</groupId>
+			<artifactId>beanValidation-1.1</artifactId>
+			<version>22.0.0.6</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.openliberty.features</groupId>
+			<artifactId>com.ibm.websphere.appserver.jsf.beanValidation-2.3</artifactId>
+			<version>22.0.0.6</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.openliberty.features</groupId>
+			<artifactId>com.ibm.websphere.appserver.configValidationValidatorSchema-1.0</artifactId>
+			<version>22.0.0.6</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 
